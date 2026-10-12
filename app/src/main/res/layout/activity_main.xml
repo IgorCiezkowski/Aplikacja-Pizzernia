@@ -52,7 +52,6 @@
             android:text="Duża 45zł"/>
     </RadioGroup>
     <CheckBox
-        android:id="@+id/THICCCCCC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Grube ciasto (+5 zł)"
