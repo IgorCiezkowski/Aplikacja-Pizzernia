@@ -30,11 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
             btn.setOnClickListener(v1 -> {
 
-                Intent intent = new Intent(MainActivity.this, pop.class);
-                intent.putExtra();
-                intent.putExtra();
-                intent.putExtra();
-                intent.putExtra();
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+
                 startActivity(intent);
 
             });
