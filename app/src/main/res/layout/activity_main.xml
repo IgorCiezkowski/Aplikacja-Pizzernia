@@ -36,16 +36,19 @@
             android:text="Wybierz rozmiar:"
             />
         <RadioButton
+            android:id="@+id/mala"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:text="Mała 25zł"/>
         <RadioButton
+            android:id="@+id/mid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:text="Średnia 35zł"/>
         <RadioButton
+            android:id="@+id/duza"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
