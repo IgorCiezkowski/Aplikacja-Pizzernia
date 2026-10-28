@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="30sp"
         android:text="Podsumowanie Zamóweinia"/>
 
     <LinearLayout
@@ -22,25 +23,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Rozmiar: "
+            android:textSize="20sp"
             android:layout_margin="5dp"/>
         <TextView
             android:id="@+id/ciasto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ciasto: "
+            android:textSize="20sp"
             android:layout_margin="5dp"/>
         <TextView
             android:id="@+id/ilosc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sztuki: "
+            android:textSize="20sp"
             android:layout_margin="5dp"/>
         <TextView
             android:id="@+id/cena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Razem: "
-            android:textSize="20sp"
+            android:textSize="28sp"
             android:textColor="#0a9c0a"
             android:layout_margin="5dp"/>
 
@@ -49,5 +53,7 @@
         android:id="@+id/btn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
         android:text="Powrót"/>
 </LinearLayout>
