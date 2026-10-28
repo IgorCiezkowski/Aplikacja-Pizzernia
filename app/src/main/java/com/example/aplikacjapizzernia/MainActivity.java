@@ -50,13 +50,13 @@ public class MainActivity extends AppCompatActivity {
                 razem = razem * Integer.parseInt(String.valueOf(lszt.getText()));
 
 
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                intent.putExtra("LSztuk", Integer.parseInt(String.valueOf(lszt.getText())));
-                intent.putExtra("Size", size);
-                intent.putExtra("Ciasto", ciasto.isChecked());
-                intent.putExtra("Razem", razem);
+                Intent intent1 = new Intent(MainActivity.this, MainActivity2.class);
+                intent1.putExtra("LSztuk", Integer.parseInt(String.valueOf(lszt.getText())));
+                intent1.putExtra("Size", size);
+                intent1.putExtra("Ciasto", ciasto.isChecked());
+                intent1.putExtra("Razem", razem);
 
-                startActivity(intent);
+                startActivity(intent1);
 
             });
             return insets;
